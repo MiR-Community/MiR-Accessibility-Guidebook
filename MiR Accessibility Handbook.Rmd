@@ -1,0 +1,166 @@
+---
+title: "MiR Accessibility Handbook"
+subtitle: "Version 1"
+date: "Last Updated on January 10, 2021"
+output:   
+  html_document:
+    toc: true
+    toc_float : true
+    number_sections : true
+    theme: united
+    toc_depth: 4
+---
+ 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+   
+# Table of Contents
+
+## Table of Contents
+
+## About
+
+The MiR Accessibility Handbook provides guidance on accessibility when it pertains to organizing, creating and delivering presentations, creating MiR related content that will be posted on the MiR website such as blogpost. By implementing these measures, we hope to make our content more accessible to R users with disabilities. 
+
+This handbook is a working document and will be revised when deemed appropriate.  We hope that this handbook is not only useful for the members of MiR but also will be useful to other organizations as well who are interested in making their content and presentations more accessible. If you have any questions or feedback on the MiR Accessibility Handbook, please don’t hesitate to contact us.
+
+
+Sincerely,
+
+The MiR Accessibility Committee 
+
+## Accessibility Considerations for MiR Webinars
+
+These guidelines were created based on feedback and discussion on accessibility measures in the MiR Accessibility Committee meetings and will be revised based on the results of the MiR Member Climate Survey.
+
+Note:  In terms of providing ASL and/or live-captioning, due to budgetary constraints, we are only able to provide captions after the MiR webinars when we upload the video to our YouTube channel. However, we are working on procuring funding so we are able to provide both ASL and live-captioning to MiR events in the future. 
+
+### Considerations for MiR Webinar Team
+
+#### Organizing and Publicizing the Event
+
+* Avoid talking about the disabled person's "needs" when publicizing the webinar.  This framing emphasizes that the disabled person has a deficit that will inconvenience people. A newer framing is that the event *needs* to be accessible. The responsibility doesn't lie completely with the disabled person. Also it's reminiscent of the phrase "special needs" which is a euphemism that disabled people don't endorse. Similarly, avoid euphemisms like "X challenged" where X is a sense or some other function.
+
+* Some groups, like deaf and autistic people, aren't comfortable with the word "impaired." "Low vision" tends to be preferred over "visually impaired" and hard-of-hearing or deaf over "hearing impaired." Things that imply that disabled people have deficits refer to "[the deficit model](https://dsq-sds.org/article/view/5236/4475)" of disability. 
+
+* Designate a contact person for questions both before and during the event.
+
+* If possible, arrange for real-time captioning (automatic captioning is not accurate enough for technical topics like R). If it is not possible, upload the video on YouTube and have a team of two to work on the captions. Based on our experience, it is best to work in pairs and have one person do the first half of the webinar and the second person to do the second half of the webinar.
+
+* Consider that for some Deaf people, ASL is more inclusive than captions. It is best to gauge your community to see if ASL is preferred to live-captions. Ideally, it would be best if you could use both, but if that is not possible, it is important to determine whether ASL or live-captions are preferred.
+
+* Ensure that talk is paired with a Slack channel/discussion board so that those that can’t make it can ask questions/engage at a later time/date.
+
+#### Editing and Uploading Webinars
+
+* Make sure you save the Zoom video as a cloud recording. Here are [instructions](https://support.zoom.us/hc/en-us/articles/203741855-Cloud-recording) on how you can save as a cloud recording. Also, download a local copy and upload it to the appropriate MiR Webinar folder (i.e. for 2021 webinars, you would save it in the 2021_Webinars folder).
+
+* After downloading the video, upload it to YouTube. It will take some time for the captions to auto-generate. Be aware that this is NOT the final step; auto-generated captions tend to be inaccurate, especially for tech related talks. 
+
+* When working on captions, download the .srt file and format the captions on that document, then copy and paste the captions in the YouTube subtitle interface. This is recommended for you and your partner might be working on the document at the same time and you might save over their work. It’s important to communicate when you plan to work on the captions to keep this in mind.
+
+* Currently we are following the [Khan’s Academy guidelines](https://docs.google.com/document/d/1-Kouqg6MmelPo2OqcmyoPgwfFkIHqVYG3ObSfZMuqQU/edit) when we do our captioning. We will add additional captioning guidelines as needed in a separate section of this handbook as an addendum.
+
+* Ensure that live captioning has been saved into the video that will be available for later use. 
+
+* Establish “Prepare-by” dates for all presenters; Send check-list ahead of time
+
+* Ensure that copies of the presentation (markdown, LaTex, PPT, PDF?, etc)
+are available for people who will only be listening to the video.
+
+## Accessibility Checklist
+
+Six weeks before the workshop, facilitators will need to share the Message to the Presenter, Webinar Accessibility Checklist, and Presentation Guidelines documents to the presenter. In addition, a link to sample code from a previous MiR workshop that implements good accessibility measures is attached to the “Message sent to the presenter” document.
+
+There are some expectations for both the quality checker (QCer) and the presenter. The presenter should make sure they follow the accessibility guidelines to the best of their ability. The QCer should go ahead and change the code as appropriate to make the code in compliance with the accessibility guidelines or to fix errors. If it is taking a significant amount of time to QC the materials or there is an error beyond the ability for the QCer to fix, mark the necessary changes that need to be made and send it back to the presenter.
+
+### Message sent to the presenter	
+
+Dear_______,
+
+
+Thank you for volunteering your time to do a workshop for MiR! To ensure that our webinars are more accessible for all R users, we ask that you follow our accessibility checklist when designing your webinar materials and review our presentation guidelines before you present.  If you have any questions, feel free ask a question in the #webinar Slack channel or e-mail any of the webinar members. You can find samples of accessible webinar documents [here](https://github.com/thisisdaryn/MiR_dplyr). 
+
+The process to ensure that your webinar meets our accessibility measures should take around two weeks. For presentation slides, we prefer that you use R Markdown for it is more accessible, but please use the format that is within your comfort level. Once you are done with your presentation materials, please put a message in the #webinar slack channel or e-mail a member of the webinar team and we will have someone check the materials. The turnaround time for this will be a week. Once you receive the materials, we ask you to make the changes within a week and send it back to us for final review. If there are any major revisions that need to be made, if not, you are good to go!
+
+Thank you again for agreeing to do a MiR workshop. We really appreciate your efforts in sharing your knowledge to the MiR and R community!
+
+The MiR Webinar Team
+
+### Webinar Accessibility Checklist
+
+Name of Presenter: 
+
+Name of QCer:
+
+#### Google/PowerPoint Slides Checklist	
+
+Measure  | Completed | Comments
+------------- | ------------- | -------------
+Accompany all slides with slide or presenter notes.|               | 
+Accompany each image with alt text in which you describe the essential features of your image (the alt text can go in the presenter notes for R Markdown slides).|               | 
+Send the presentation files or link to the presentation to the website facilitator.|               | 
+
+
+
+#### R Markdown Files Checklist
+
+insert table here
+
+Summary of feedback/additional comments:
+
+In this section, add no more than four overall comments.
+
+## Presentation Guidelines	
+
+Top Ten Presentation Guidelines to Make Your Presentation a Perfect 10!
+
+Nervous about giving a presentation? Here’s some tips that will put you on the path of success when it comes to creating and giving your presentation!
+
+1. Add alt-text to your graphics and data visualizations. Alt-text is the text that describes an image or graphic. This is particularly useful to those who use screen-readers during your presentation.
+
+2. Speak slower than you usually would in conversation. If you speak too fast, some participants might not be able to follow along.
+
+3. Avoid pointing at things and using vague wording like “this” and here” that can’t be understood without seeing gestures.
+
+4. Describe any data visualizations or graphics aloud. 
+5. Schedule breaks regularly. A good rule of thumb would be to schedule a 5-7 minute break per hour you are presenting.
+
+6. Make sure to regularly check the chat window. 
+
+7. Provide ample time for Q&A before you move on to the next section of your presentation.
+
+8. Avoid the use of words that express an assumed proficiency of your audience such as “you just have to do this” or “this is really easy”. What might be “just easy to you” might not be easy to others.
+
+9. Explain what your code is doing line by line when doing a code demo.
+
+10. Allow for self-pacing and repetition. You don’t want to zip through your presentation and don’t be hesitant to repeat important points you want to make!
+
+Post-Presentation Procedures
+
+## Additional Resources
+
+### Live Captioning Services
+
+* [Whitecoat Captioning Services](https://whitecoatcaptioning.com/) - The current rate for webinars is $153/hr with a 3 hour minimum billing that includes the captioner, the streaming fees, an early sign on to be sure audio and captions are working, preparation, a lightly edited real time text file after the event, and admin.  A 48 hour cancellation policy applies. 
+
+* Whitecoat Captioning will need to receive clear audio for the captioner and the captions would be returned to a StreamText URL that attendees can view on a separate screen or split screen, or the tech team can embed the stream into their website.
+
+### ASL Services	
+
+* [DEAF Inc.](https://www.deafinc.org/) - St. Louis based organization which focuses on advocacy for the deaf and hard of hearing community along with providing education and interpretation services.
+
+### Captioning
+
+* [Mic + Communication Options](https://docs.google.com/document/d/1909D2_YnbCvORBrK2XyCD_D6wrALOuEIE_T9ouquEgs/edit) - You can ignore the OBS part.
+
+* [Using Auto Transcription for Cloud Recordings](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-)
+
+* [Khans Academy Captions Standards Guide](https://docs.google.com/document/d/1-Kouqg6MmelPo2OqcmyoPgwfFkIHqVYG3ObSfZMuqQU/edit#heading=h.9a6mroapzxnx)
+
+* Add the BBC guide.
+
+* What is doable at this moment when we are doing the captions editing in youtube?
+
+* What are we not currently doing at the time?
